@@ -1,14 +1,14 @@
 # Mini Navegador Web com JavaFX
 
-Aplicacao desktop que funciona como um navegador web simples usando recursos do JavaFX.
+Aplicação desktop que funciona como um navegador web simples usando recursos do JavaFX.
 
-## Repositorio
+## Repositório
 
 [mini-navegador-web](https://github.com/p-rcorreia/mini-navegador-web.git)
 
 ## Objetivo
 
-Criar um navegador basico com campo de URL, botoes de navegacao e area de exibicao de paginas.
+Criar um navegador básico com campo de URL, botões de navegação e área de exibição de páginas.
 
 ## Conceitos praticados
 
@@ -16,22 +16,22 @@ Criar um navegador basico com campo de URL, botoes de navegacao e area de exibic
 - WebView
 - Eventos de interface
 - Tratamento de URL
-- Organizacao de layout
+- Organização de layout
 
 ## Funcionalidades planejadas
 
 - Campo para digitar URL
-- Botao para carregar pagina
-- Area de visualizacao web
-- Botoes voltar e avancar
-- Opcional: historico simples de navegacao
+- Botão para carregar página
+- Área de visualização web
+- Botões voltar e avançar
+- Opcional: histórico simples de navegação
 
 ## Status
 
 Planejado.
 
-## Evidencias para portfolio
+## Evidências para portfólio
 
-- Screenshot com uma pagina carregada
-- Video curto navegando entre paginas
-- Explicacao sobre uso do WebView
+- Screenshot com uma página carregada
+- Vídeo curto navegando entre páginas
+- Explicação sobre uso do WebView
