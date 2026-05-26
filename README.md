@@ -1,6 +1,8 @@
 # Mini Navegador Web com JavaFX
 
-Aplicação desktop que funciona como um navegador web simples usando recursos do JavaFX.
+Aplicação desktop simples que funciona como um mini navegador web usando JavaFX.
+
+![Demonstração do Mini Navegador Web](./assets/mini-navegador-web.gif)
 
 ## Repositório
 
@@ -8,30 +10,40 @@ Aplicação desktop que funciona como um navegador web simples usando recursos d
 
 ## Objetivo
 
-Criar um navegador básico com campo de URL, botões de navegação e área de exibição de páginas.
+Criar um navegador básico com campo para digitar uma URL e uma área de visualização de páginas web.
 
 ## Conceitos praticados
 
 - JavaFX
-- WebView
-- Eventos de interface
-- Tratamento de URL
-- Organização de layout
+- `Application`
+- `Stage`
+- `Scene`
+- `TextField`
+- `VBox`
+- `WebView`
+- `WebEngine`
+- Evento com `setOnAction`
+- Carregamento de páginas com `load`
+- Tratamento simples de URL com `startsWith`
+- Uso do módulo `javafx.web`
+- Dependências transitivas entre módulos JavaFX
 
-## Funcionalidades planejadas
+## Funcionalidades
 
-- Campo para digitar URL
-- Botão para carregar página
-- Área de visualização web
-- Botões voltar e avançar
-- Opcional: histórico simples de navegação
+- Permite digitar uma URL em um campo de texto.
+- Carrega a página ao pressionar Enter.
+- Exibe o conteúdo web dentro de um `WebView`.
+- Adiciona `http://` quando a URL não começa com `http://` ou `https://`.
+
+## Como executar
+
+Na pasta do projeto:
+
+```powershell
+javac --module-path "$env:PATH_TO_FX" --add-modules javafx.web MiniBrowser.java
+java --module-path "$env:PATH_TO_FX" --add-modules javafx.web MiniBrowser
+```
 
 ## Status
 
-Planejado.
-
-## Evidências para portfólio
-
-- Screenshot com uma página carregada
-- Vídeo curto navegando entre páginas
-- Explicação sobre uso do WebView
+Concluído.
